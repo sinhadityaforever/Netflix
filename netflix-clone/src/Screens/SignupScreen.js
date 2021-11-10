@@ -32,7 +32,7 @@ function SignupScreen() {
       passwordRef.current.value
     )
       .then((authUser) => console.log(authUser))
-      .catch((e) => console.log(e));
+      .catch((e) => alert(e.message));
   };
 
   return (
