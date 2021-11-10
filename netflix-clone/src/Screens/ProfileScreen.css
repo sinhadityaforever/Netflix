@@ -59,3 +59,48 @@
   border-bottom: 1px solid #282c2d;
   padding-bottom: 10px;
 }
+
+.profileScreen__renewal {
+  font-size: 15px;
+  color: grey;
+  padding: 20px 0px;
+}
+.profileScreen__plan {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20px;
+  margin-bottom: 40px;
+  align-items: center;
+}
+.profileScreen__plan--text {
+  font-size: 14px;
+  color: gray;
+}
+.profileScreen__plan--button {
+  padding: 10px 20px;
+  font-size: 1rem;
+
+  width: 20%;
+  color: #fff;
+  background-color: #e50914;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+}
+.profileScreen__plan--button--current {
+  padding: 10px 20px;
+  font-size: 1rem;
+
+  width: 35%;
+  color: #fff;
+  background-color: gray;
+  border: none;
+  cursor: not-allowed;
+  font-weight: 600;
+}
+.profileScreen__plan:hover > .profileScreen__plan--text {
+  color: #fff;
+}
+.profileScreen__plan:hover > .profileScreen__plan--button {
+  background-color: #c2040e;
+}
